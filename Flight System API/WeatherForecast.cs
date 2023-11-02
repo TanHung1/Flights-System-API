@@ -1,4 +1,4 @@
-namespace Flight_System_API
+namespace FlightSystemAPI
 {
     public class WeatherForecast
     {

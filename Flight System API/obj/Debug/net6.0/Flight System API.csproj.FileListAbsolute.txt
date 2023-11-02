@@ -1,0 +1,87 @@
+D:\Alta Software\Flight System API\Flight System API\bin\Debug\net6.0\appsettings.Development.json
+D:\Alta Software\Flight System API\Flight System API\bin\Debug\net6.0\appsettings.json
+D:\Alta Software\Flight System API\Flight System API\bin\Debug\net6.0\Flight System API.exe
+D:\Alta Software\Flight System API\Flight System API\bin\Debug\net6.0\Flight System API.deps.json
+D:\Alta Software\Flight System API\Flight System API\bin\Debug\net6.0\Flight System API.runtimeconfig.json
+D:\Alta Software\Flight System API\Flight System API\bin\Debug\net6.0\Flight System API.dll
+D:\Alta Software\Flight System API\Flight System API\bin\Debug\net6.0\Flight System API.pdb
+D:\Alta Software\Flight System API\Flight System API\bin\Debug\net6.0\Azure.Core.dll
+D:\Alta Software\Flight System API\Flight System API\bin\Debug\net6.0\Azure.Identity.dll
+D:\Alta Software\Flight System API\Flight System API\bin\Debug\net6.0\Humanizer.dll
+D:\Alta Software\Flight System API\Flight System API\bin\Debug\net6.0\Microsoft.Bcl.AsyncInterfaces.dll
+D:\Alta Software\Flight System API\Flight System API\bin\Debug\net6.0\Microsoft.Data.SqlClient.dll
+D:\Alta Software\Flight System API\Flight System API\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.dll
+D:\Alta Software\Flight System API\Flight System API\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+D:\Alta Software\Flight System API\Flight System API\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Design.dll
+D:\Alta Software\Flight System API\Flight System API\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Relational.dll
+D:\Alta Software\Flight System API\Flight System API\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.SqlServer.dll
+D:\Alta Software\Flight System API\Flight System API\bin\Debug\net6.0\Microsoft.Extensions.Caching.Abstractions.dll
+D:\Alta Software\Flight System API\Flight System API\bin\Debug\net6.0\Microsoft.Extensions.Caching.Memory.dll
+D:\Alta Software\Flight System API\Flight System API\bin\Debug\net6.0\Microsoft.Extensions.Configuration.Abstractions.dll
+D:\Alta Software\Flight System API\Flight System API\bin\Debug\net6.0\Microsoft.Extensions.DependencyInjection.dll
+D:\Alta Software\Flight System API\Flight System API\bin\Debug\net6.0\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+D:\Alta Software\Flight System API\Flight System API\bin\Debug\net6.0\Microsoft.Extensions.DependencyModel.dll
+D:\Alta Software\Flight System API\Flight System API\bin\Debug\net6.0\Microsoft.Extensions.Logging.dll
+D:\Alta Software\Flight System API\Flight System API\bin\Debug\net6.0\Microsoft.Extensions.Logging.Abstractions.dll
+D:\Alta Software\Flight System API\Flight System API\bin\Debug\net6.0\Microsoft.Extensions.Options.dll
+D:\Alta Software\Flight System API\Flight System API\bin\Debug\net6.0\Microsoft.Extensions.Primitives.dll
+D:\Alta Software\Flight System API\Flight System API\bin\Debug\net6.0\Microsoft.Identity.Client.dll
+D:\Alta Software\Flight System API\Flight System API\bin\Debug\net6.0\Microsoft.Identity.Client.Extensions.Msal.dll
+D:\Alta Software\Flight System API\Flight System API\bin\Debug\net6.0\Microsoft.IdentityModel.Abstractions.dll
+D:\Alta Software\Flight System API\Flight System API\bin\Debug\net6.0\Microsoft.IdentityModel.JsonWebTokens.dll
+D:\Alta Software\Flight System API\Flight System API\bin\Debug\net6.0\Microsoft.IdentityModel.Logging.dll
+D:\Alta Software\Flight System API\Flight System API\bin\Debug\net6.0\Microsoft.IdentityModel.Protocols.dll
+D:\Alta Software\Flight System API\Flight System API\bin\Debug\net6.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+D:\Alta Software\Flight System API\Flight System API\bin\Debug\net6.0\Microsoft.IdentityModel.Tokens.dll
+D:\Alta Software\Flight System API\Flight System API\bin\Debug\net6.0\Microsoft.OpenApi.dll
+D:\Alta Software\Flight System API\Flight System API\bin\Debug\net6.0\Microsoft.SqlServer.Server.dll
+D:\Alta Software\Flight System API\Flight System API\bin\Debug\net6.0\Microsoft.Win32.SystemEvents.dll
+D:\Alta Software\Flight System API\Flight System API\bin\Debug\net6.0\Mono.TextTemplating.dll
+D:\Alta Software\Flight System API\Flight System API\bin\Debug\net6.0\Swashbuckle.AspNetCore.Swagger.dll
+D:\Alta Software\Flight System API\Flight System API\bin\Debug\net6.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+D:\Alta Software\Flight System API\Flight System API\bin\Debug\net6.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+D:\Alta Software\Flight System API\Flight System API\bin\Debug\net6.0\System.CodeDom.dll
+D:\Alta Software\Flight System API\Flight System API\bin\Debug\net6.0\System.Configuration.ConfigurationManager.dll
+D:\Alta Software\Flight System API\Flight System API\bin\Debug\net6.0\System.Drawing.Common.dll
+D:\Alta Software\Flight System API\Flight System API\bin\Debug\net6.0\System.IdentityModel.Tokens.Jwt.dll
+D:\Alta Software\Flight System API\Flight System API\bin\Debug\net6.0\System.Memory.Data.dll
+D:\Alta Software\Flight System API\Flight System API\bin\Debug\net6.0\System.Runtime.Caching.dll
+D:\Alta Software\Flight System API\Flight System API\bin\Debug\net6.0\System.Security.Cryptography.ProtectedData.dll
+D:\Alta Software\Flight System API\Flight System API\bin\Debug\net6.0\System.Security.Permissions.dll
+D:\Alta Software\Flight System API\Flight System API\bin\Debug\net6.0\System.Text.Encodings.Web.dll
+D:\Alta Software\Flight System API\Flight System API\bin\Debug\net6.0\System.Text.Json.dll
+D:\Alta Software\Flight System API\Flight System API\bin\Debug\net6.0\System.Windows.Extensions.dll
+D:\Alta Software\Flight System API\Flight System API\bin\Debug\net6.0\runtimes\unix\lib\net6.0\Microsoft.Data.SqlClient.dll
+D:\Alta Software\Flight System API\Flight System API\bin\Debug\net6.0\runtimes\win\lib\net6.0\Microsoft.Data.SqlClient.dll
+D:\Alta Software\Flight System API\Flight System API\bin\Debug\net6.0\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.dll
+D:\Alta Software\Flight System API\Flight System API\bin\Debug\net6.0\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
+D:\Alta Software\Flight System API\Flight System API\bin\Debug\net6.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
+D:\Alta Software\Flight System API\Flight System API\bin\Debug\net6.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
+D:\Alta Software\Flight System API\Flight System API\bin\Debug\net6.0\runtimes\win\lib\net6.0\Microsoft.Win32.SystemEvents.dll
+D:\Alta Software\Flight System API\Flight System API\bin\Debug\net6.0\runtimes\unix\lib\net6.0\System.Drawing.Common.dll
+D:\Alta Software\Flight System API\Flight System API\bin\Debug\net6.0\runtimes\win\lib\net6.0\System.Drawing.Common.dll
+D:\Alta Software\Flight System API\Flight System API\bin\Debug\net6.0\runtimes\win\lib\net6.0\System.Runtime.Caching.dll
+D:\Alta Software\Flight System API\Flight System API\bin\Debug\net6.0\runtimes\win\lib\net6.0\System.Security.Cryptography.ProtectedData.dll
+D:\Alta Software\Flight System API\Flight System API\bin\Debug\net6.0\runtimes\browser\lib\net6.0\System.Text.Encodings.Web.dll
+D:\Alta Software\Flight System API\Flight System API\bin\Debug\net6.0\runtimes\win\lib\net6.0\System.Windows.Extensions.dll
+D:\Alta Software\Flight System API\Flight System API\obj\Debug\net6.0\Flight System API.csproj.AssemblyReference.cache
+D:\Alta Software\Flight System API\Flight System API\obj\Debug\net6.0\Flight System API.GeneratedMSBuildEditorConfig.editorconfig
+D:\Alta Software\Flight System API\Flight System API\obj\Debug\net6.0\Flight System API.AssemblyInfoInputs.cache
+D:\Alta Software\Flight System API\Flight System API\obj\Debug\net6.0\Flight System API.AssemblyInfo.cs
+D:\Alta Software\Flight System API\Flight System API\obj\Debug\net6.0\Flight System API.csproj.CoreCompileInputs.cache
+D:\Alta Software\Flight System API\Flight System API\obj\Debug\net6.0\Flight System API.MvcApplicationPartsAssemblyInfo.cs
+D:\Alta Software\Flight System API\Flight System API\obj\Debug\net6.0\Flight System API.MvcApplicationPartsAssemblyInfo.cache
+D:\Alta Software\Flight System API\Flight System API\obj\Debug\net6.0\staticwebassets\msbuild.Flight System API.Microsoft.AspNetCore.StaticWebAssets.props
+D:\Alta Software\Flight System API\Flight System API\obj\Debug\net6.0\staticwebassets\msbuild.build.Flight System API.props
+D:\Alta Software\Flight System API\Flight System API\obj\Debug\net6.0\staticwebassets\msbuild.buildMultiTargeting.Flight System API.props
+D:\Alta Software\Flight System API\Flight System API\obj\Debug\net6.0\staticwebassets\msbuild.buildTransitive.Flight System API.props
+D:\Alta Software\Flight System API\Flight System API\obj\Debug\net6.0\staticwebassets.pack.json
+D:\Alta Software\Flight System API\Flight System API\obj\Debug\net6.0\staticwebassets.build.json
+D:\Alta Software\Flight System API\Flight System API\obj\Debug\net6.0\staticwebassets.development.json
+D:\Alta Software\Flight System API\Flight System API\obj\Debug\net6.0\scopedcss\bundle\Flight System API.styles.css
+D:\Alta Software\Flight System API\Flight System API\obj\Debug\net6.0\Flight System API.csproj.CopyComplete
+D:\Alta Software\Flight System API\Flight System API\obj\Debug\net6.0\Flight System API.dll
+D:\Alta Software\Flight System API\Flight System API\obj\Debug\net6.0\refint\Flight System API.dll
+D:\Alta Software\Flight System API\Flight System API\obj\Debug\net6.0\Flight System API.pdb
+D:\Alta Software\Flight System API\Flight System API\obj\Debug\net6.0\Flight System API.genruntimeconfig.cache
+D:\Alta Software\Flight System API\Flight System API\obj\Debug\net6.0\ref\Flight System API.dll
