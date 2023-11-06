@@ -11,7 +11,7 @@ namespace FlightSystemAPI.Models
 
         public DateTime CreateDate { get; set; }
 
-        public string Createtor { get; set; }
+        public string Creator { get; set; }
 
         public string Permission { get; set; }
 

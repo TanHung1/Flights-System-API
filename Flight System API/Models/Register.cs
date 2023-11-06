@@ -6,9 +6,13 @@ namespace Flight_System_API.Models
     {
         [Required(ErrorMessage = "User Name is required")]
         public string? Username { get; set; }
-        [EmailAddress]
+        [Email(ErrorMessage = "Invalid email format")]
         [Required(ErrorMessage = "Email is required")]
         public string? Email { get; set; }
+
+        [Required(ErrorMessage = " Phone number is required")]
+        public string? PhoneNumber { get; set; }
+
 
         [Required(ErrorMessage = " Password is required")]
         public string? Password { get; set; }

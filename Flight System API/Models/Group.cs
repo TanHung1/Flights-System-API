@@ -1,4 +1,5 @@
-﻿using System.ComponentModel.DataAnnotations;
+﻿using Microsoft.AspNetCore.Identity;
+using System.ComponentModel.DataAnnotations;
 
 namespace FlightSystemAPI.Models
 {
@@ -14,8 +15,9 @@ namespace FlightSystemAPI.Models
 
         public string Note { get; set; }
 
+        public string Creator { get; set; }
 
-
+        public virtual ICollection<IdentityUser> Members { get; set; } = new List<IdentityUser>();
         public virtual ICollection<CargoManiFest> CargoManiFests { get; set; } = new List<CargoManiFest>();
 
     }

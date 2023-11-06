@@ -12,8 +12,8 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 namespace Flight_System_API.Migrations
 {
     [DbContext(typeof(FlightContext))]
-    [Migration("20231102053226_adddb")]
-    partial class adddb
+    [Migration("20231106015019_group")]
+    partial class group
     {
         /// <inheritdoc />
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
@@ -32,6 +32,9 @@ namespace Flight_System_API.Migrations
                         .HasColumnType("int");
 
                     SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"));
+
+                    b.Property<DateTime>("Date")
+                        .HasColumnType("datetime2");
 
                     b.Property<int>("DocumentTypeId")
                         .HasColumnType("int");
@@ -55,8 +58,11 @@ namespace Flight_System_API.Migrations
                         .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
-                    b.Property<int>("TypeId")
-                        .HasColumnType("int");
+                    b.Property<string>("ReturnFile")
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("SentFile")
+                        .HasColumnType("nvarchar(max)");
 
                     b.Property<float>("Version")
                         .HasColumnType("real");
@@ -108,6 +114,10 @@ namespace Flight_System_API.Migrations
 
                     b.Property<DateTime>("CreateDate")
                         .HasColumnType("datetime2");
+
+                    b.Property<string>("Creator")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
 
                     b.Property<string>("GroupName")
                         .IsRequired()

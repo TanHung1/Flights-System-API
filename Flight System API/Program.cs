@@ -1,3 +1,7 @@
+using Flight_System_API.Repository.AccountRepository;
+using Flight_System_API.Repository.CargoManiFestRepository;
+using Flight_System_API.Repository.DocumentTypeRepository;
+using Flight_System_API.Repository.GroupRepository;
 using FlightSystemAPI.Models;
 using Microsoft.AspNetCore.Authentication.JwtBearer;
 using Microsoft.AspNetCore.Identity;
@@ -12,9 +16,11 @@ builder.Services.AddDbContext<FlightContext>(options =>
 {
     options.UseSqlServer(builder.Configuration.GetConnectionString("FlightDB"));
 });
-
-//builder.Services.AddDbContext<AuthDBContext>(
-//    options => options.UseSqlServer(builder.Configuration.GetConnectionString("Auth")));
+//Dependency Injection
+builder.Services.AddTransient<IGroupRepository, GroupRepository>();
+builder.Services.AddTransient<IDocumentTypeRepository, DocumentTypeRepository>();
+builder.Services.AddTransient<ICargoManiFestRepository, CargoManiFestRepository>();
+builder.Services.AddTransient<IAccountRepository, AccountRepository>();
 //For Identity
 builder.Services.AddIdentity<IdentityUser, IdentityRole>()
     .AddEntityFrameworkStores<FlightContext>()

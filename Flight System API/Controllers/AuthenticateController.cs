@@ -26,6 +26,8 @@ namespace Flight_System_API.Controllers
             _configuration = configuration;
         }
 
+
+
         [HttpPost]
         [Route("login")]
         public async Task<IActionResult> Login([FromBody] Login model)
@@ -64,11 +66,14 @@ namespace Flight_System_API.Controllers
                     new Response { Status = "Error", Message = "Tài khoản đã tồn tại" });
 
             }
+
             IdentityUser user = new()
             {
-                Email = model.Email,
+
                 SecurityStamp = Guid.NewGuid().ToString(),
-                UserName = model.Username
+                UserName = model.Username,
+                PhoneNumber = model.PhoneNumber,
+                Email = model.Email
             };
             var result = await _userManager.CreateAsync(user, model.Password);
             if (!result.Succeeded)
@@ -103,15 +108,31 @@ namespace Flight_System_API.Controllers
             }
             if (!await _roleManager.RoleExistsAsync(UserRoles.Admin))
                 await _roleManager.CreateAsync(new IdentityRole(UserRoles.Admin));
-            if (!await _roleManager.RoleExistsAsync(UserRoles.User))
-                await _roleManager.CreateAsync(new IdentityRole(UserRoles.User));
+
+            if (!await _roleManager.RoleExistsAsync(UserRoles.Pilot))
+                await _roleManager.CreateAsync(new IdentityRole(UserRoles.Pilot));
+
+            if (!await _roleManager.RoleExistsAsync(UserRoles.Crew))
+                await _roleManager.CreateAsync(new IdentityRole(UserRoles.Crew));
+
+            if (!await _roleManager.RoleExistsAsync(UserRoles.Staff))
+                await _roleManager.CreateAsync(new IdentityRole(UserRoles.Staff));
+
             if (await _roleManager.RoleExistsAsync(UserRoles.Admin))
             {
                 await _userManager.AddToRoleAsync(user, UserRoles.Admin);
             }
             if (await _roleManager.RoleExistsAsync(UserRoles.Admin))
             {
-                await _userManager.AddToRoleAsync(user, UserRoles.User);
+                await _userManager.AddToRoleAsync(user, UserRoles.Pilot);
+            }
+            if (await _roleManager.RoleExistsAsync(UserRoles.Admin))
+            {
+                await _userManager.AddToRoleAsync(user, UserRoles.Crew);
+            }
+            if (await _roleManager.RoleExistsAsync(UserRoles.Admin))
+            {
+                await _userManager.AddToRoleAsync(user, UserRoles.Staff);
             }
             return Ok(new Response { Status = "Thành công ", Message = "Tạo tài khoản thành công" });
         }
