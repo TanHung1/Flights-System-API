@@ -1,10 +1,11 @@
 ﻿using Flight_System_API.Repository.CargoManiFestRepository;
 using FlightSystemAPI.Models;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 
 namespace Flight_System_API.Controllers
 {
-
+    [Authorize]
     [ApiController]
     [Route("api/cargomaniFest")]
     public class CargoManiFestController : Controller

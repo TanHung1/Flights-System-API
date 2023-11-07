@@ -1,11 +1,12 @@
 ﻿using Flight_System_API.Repository.GroupRepository;
 using FlightSystemAPI.Models;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Mvc;
 
 namespace Flight_System_API.Controllers
 {
-
+    [Authorize]
     [ApiController]
     [Route("api/groups")]
     public class GroupController : Controller
@@ -35,7 +36,7 @@ namespace Flight_System_API.Controllers
             {
                 return Ok(group);
             }
-            return NotFound($"Group with ID {id} not found");
+            return NotFound($"Group với ID {id} không tồn tại");
         }
 
 
